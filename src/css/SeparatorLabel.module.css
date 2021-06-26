@@ -10,7 +10,7 @@
 .text::before {
   content: "";
   display: block;
-  width: 142px;
+  width: 102px;
   height: 1px;
   background: #d1d5db;
   position: absolute;
@@ -22,7 +22,7 @@
 .text::after {
   content: "";
   display: block;
-  width: 142px;
+  width: 102px;
   height: 1px;
   background: #d1d5db;
   position: absolute;

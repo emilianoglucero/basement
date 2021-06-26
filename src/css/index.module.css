@@ -8,4 +8,5 @@
 
 .image-wrapper {
   /* flex: 7 */
+  line-height: 0;
 }
