@@ -5,6 +5,10 @@
   --font-system: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   --font-body: 'Inter', var(--font-system), sans-serif;
+
+  --color-primary: hsl(0, 0%, 100%);
+  --color-secondary: hsl(0, 100%, 0%);
+  --color-tertiary: hsl(217, 19%, 27%);
 }
 
 body {

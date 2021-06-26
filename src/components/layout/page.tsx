@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Container, { ContainerProps } from './container'
-
+import styles from '../../css/PageLayout.module.css'
 type Props = {
   children?: React.ReactNode
   contain?: boolean | ContainerProps
@@ -15,12 +15,12 @@ const PageLayout = ({ children, contain }: Props) => {
   return (
     <>
       <Head>
-        <title>next-typescript | basement.studio</title>
+        <title>frontend-challenge | basement.studio</title>
         {/* TODO Head */}
       </Head>
       {/* TODO Header */}
       {/* <Header /> */}
-      <main>
+      <main className={styles.wrapper}>
         {contain ? <Container {...contain}>{children}</Container> : children}
       </main>
       {/* TODO Footer */}

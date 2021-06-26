@@ -1,0 +1,38 @@
+.text {
+  font-size: 14px;
+  color: #6b7280;
+  line-height: 20px;
+  text-align: center;
+  max-width: 600px;
+  position: relative;
+}
+
+.text::before {
+  content: "";
+  display: block;
+  width: 142px;
+  height: 1px;
+  background: #d1d5db;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: -2;
+}
+
+.text::after {
+  content: "";
+  display: block;
+  width: 142px;
+  height: 1px;
+  background: #d1d5db;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: -2;
+}
+
+.span {
+  background: #fff;
+  max-width: fit-content;
+  margin: auto;
+}

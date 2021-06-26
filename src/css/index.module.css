@@ -1,0 +1,11 @@
+.text-wrapper {
+  flex: 4;
+  padding: 48px 96px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px
+}
+
+.image-wrapper {
+  /* flex: 7 */
+}
