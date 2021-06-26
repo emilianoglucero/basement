@@ -10,3 +10,18 @@
   /* flex: 7 */
   line-height: 0;
 }
+
+@media (max-width: 1328px) {
+  /* Laptop and tablets */
+  .image-wrapper {
+    /* flex: 7 */
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  /* Phones */
+  .text-wrapper {
+    padding: 48px 16px;
+  }
+}
