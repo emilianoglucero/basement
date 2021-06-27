@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow:
+Sitemap: https://basement-challenge-emilianoglucero.vercel.app/sitemap.xml
