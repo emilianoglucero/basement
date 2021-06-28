@@ -6,7 +6,7 @@ export const SignUpImage = () => {
       <section>
         <Image
           // className={styles.image}
-          src={'/images/rocket.jpeg'}
+          src={'/images/signup-rocket.jpeg'}
           alt="Sign up Rocket"
           // layout="intrinsic"
           layout="fixed"

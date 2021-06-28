@@ -4,7 +4,7 @@ export const Header = () => {
   return (
     <header className={styles.wrapper}>
       <Image
-        src="/images/logo.png"
+        src="/images/basegit-logo.png"
         alt="BaseGit logo"
         width={49.5}
         height={45}
