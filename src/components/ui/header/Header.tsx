@@ -11,7 +11,7 @@ export const Header = () => {
       />
       <h1 className={styles.title}>Sign up to BaseGit</h1>
       <h3 className={styles['sub-title']}>
-        BaseGit is the best way to store more information
+        BaseGit is the best way to store more information.
       </h3>
     </header>
   )

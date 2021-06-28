@@ -15,7 +15,9 @@ const PageLayout = ({ children, contain }: Props) => {
   return (
     <>
       <Head>
-        <title>frontend-challenge | basement.studio</title>
+        <title>BaseGit</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         {/* TODO Head */}
       </Head>
       {/* TODO Header */}

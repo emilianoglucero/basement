@@ -28,19 +28,24 @@ export const Form = () => {
     userEmail: email.userEmail
   })
 
-  const setFirst = (event) => {
+  const setFirst = (event: React.ChangeEvent<HTMLInputElement>) => {
     setPassword({ ...password, firstPassword: event.target.value })
   }
-  const setSecond = (event) => {
+  const setSecond = (event: React.ChangeEvent<HTMLInputElement>) => {
     setPassword({ ...password, secondPassword: event.target.value })
   }
-  const setUserEmail = (event) => {
+  const setUserEmail = (event: React.ChangeEvent<HTMLInputElement>) => {
     setEmail({ ...email, userEmail: event.target.value })
   }
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.SyntheticEvent) => {
     e.preventDefault()
-    console.log('trying to login', userEmail, firstPassword, secondPassword)
+    console.log(
+      'trying to login with',
+      userEmail,
+      firstPassword,
+      secondPassword
+    )
     if (isFormValid()) {
       window.localStorage.setItem('email', JSON.stringify(userEmail))
       window.localStorage.setItem('password', JSON.stringify(firstPassword))
@@ -89,7 +94,6 @@ export const Form = () => {
             className={styles.input}
             type="email"
             name="email"
-            // value={email}
             onChange={setUserEmail}
           />
         </label>
@@ -100,8 +104,6 @@ export const Form = () => {
             className={styles.input}
             type="password"
             name="password"
-            // value={password}
-            // onChange={handleInputChange}
             onChange={setFirst}
           />
         </label>
@@ -112,8 +114,6 @@ export const Form = () => {
             className={styles.input}
             type="password"
             name="passwordconfirmation"
-            // value={passwordconfirmation}
-            // onChange={handleInputChange}
             onChange={setSecond}
           />
         </label>
@@ -142,7 +142,7 @@ export const Form = () => {
             </li>
           </ul> */}
         </div>
-        <button className={styles.button}>Signup</button>
+        <button className={styles.button}>Sign up</button>
       </form>
     </section>
   )
