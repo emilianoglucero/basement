@@ -3,12 +3,10 @@
   padding: 48px 96px;
   display: flex;
   flex-direction: column;
-
-  /* gap: 24px */
 }
 
-.text-wrapper > * {
-  margin: 12px 0;
+.text-wrapper > * + * {
+  margin-top: 24px;
 }
 
 .image-wrapper {

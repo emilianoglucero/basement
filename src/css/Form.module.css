@@ -1,36 +1,26 @@
 .form {
   display: flex;
   flex-direction: column;
-
-  /* gap: 22px */
 }
 
-.form > * {
-  margin: 11px 0;
+.form > * + * {
+  margin-top: 22px;
 }
 
 .label {
   display: flex;
   flex-direction: column;
   font-size: 14px;
-
-  /* gap: 4px */
 }
 
 .label > * {
-  margin: 2px 0;
+  margin-top: 4px;
 }
 
 .input {
   height: 40px;
-
-  /* gray/300 */
-
   border: 1px solid #d1d5db;
   box-sizing: border-box;
-
-  /* shadow/sm */
-
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
   padding: 12px;
