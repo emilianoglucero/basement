@@ -1,20 +1,12 @@
 import Image from 'next/image'
-// import styles from '../../css/SignUpImage.module.css'
 export const SignUpImage = () => {
   return (
     <>
       <section>
         <Image
-          // className={styles.image}
           src={'/images/signup-rocket.jpeg'}
           alt="Sign up Rocket"
-          // layout="intrinsic"
           layout="fixed"
-          // layout="responsive"
-          // layout="fill"
-          // objectFit="cover"
-          // objectFit="contain"
-          // objectFit="none"
           width={864}
           height={800}
         />
