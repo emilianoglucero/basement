@@ -13,6 +13,6 @@
 
 .sub-title {
   font-size: 14px;
-  color: #4b5563;
+  color: var(--color-tertiary);
   line-height: 20px;
 }

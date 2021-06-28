@@ -1,7 +1,12 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+
+  /* gap: 4px; */
+}
+
+.wrapper > * {
+  margin: 2px 0;
 }
 
 .wrapper p {
@@ -14,7 +19,12 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 12px;
+
+  /* gap: 12px; */
+}
+
+.text-wrapper > * {
+  margin: 6px 0;
 }
 
 .button {
@@ -29,5 +39,5 @@
 }
 
 .button:hover {
-  color: blue;
+  color: var(--color-primary-hover);
 }

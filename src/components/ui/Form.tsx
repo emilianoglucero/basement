@@ -117,8 +117,8 @@ export const Form = () => {
             onChange={setSecond}
           />
         </label>
-        <div>
-          {/* <ul>
+        {/*<div>
+           <ul>
             <li>
               Valid Length:{' '}
               {validPasswordLength ? <span>True</span> : <span>False</span>}
@@ -140,8 +140,8 @@ export const Form = () => {
               Valid Email Length:{' '}
               {validEmailLength ? <span>True</span> : <span>False</span>}
             </li>
-          </ul> */}
-        </div>
+          </ul> 
+        </div>*/}
         <button className={styles.button}>Sign up</button>
       </form>
     </section>
