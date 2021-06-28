@@ -10,9 +10,9 @@ export const Header = () => {
         height={45}
       />
       <h1 className={styles.title}>Sign up to BaseGit</h1>
-      <h3 className={styles['sub-title']}>
+      <h2 className={styles['sub-title']}>
         BaseGit is the best way to store more information.
-      </h3>
+      </h2>
     </header>
   )
 }

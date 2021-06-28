@@ -6,6 +6,8 @@ const App = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <DefaultSeo
+        title="BaseGit"
+        description="BaseGit challenge for Basement Studio."
         openGraph={{
           type: 'website',
           locale: 'en_IE',
