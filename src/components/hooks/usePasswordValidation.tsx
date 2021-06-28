@@ -1,11 +1,16 @@
 import { useEffect, useState } from 'react'
 
+interface PasswordValidationProps {
+  firstPassword: string
+  secondPassword: string
+  requiredPasswordLength?: number
+}
+
 export const usePasswordValidation = ({
   firstPassword = '',
   secondPassword = '',
-
   requiredPasswordLength = 6
-}) => {
+}: PasswordValidationProps) => {
   const [validPasswordLength, setValidPasswordLength] = useState<boolean>(false)
   const [hasNumber, setHasNumber] = useState<boolean>(false)
   const [upperCase, setUpperCase] = useState<boolean>(false)

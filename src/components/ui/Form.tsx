@@ -49,6 +49,9 @@ export const Form = () => {
     if (isFormValid()) {
       window.localStorage.setItem('email', JSON.stringify(userEmail))
       window.localStorage.setItem('password', JSON.stringify(firstPassword))
+      alert(
+        'Hey your pass and email are valids please take a look at your localstorage'
+      )
     }
   }
 
@@ -82,6 +85,9 @@ export const Form = () => {
       return false
     }
 
+    console.log(
+      'Hey your pass and email are valids please take a look at your localstorage'
+    )
     return true
   }
   return (

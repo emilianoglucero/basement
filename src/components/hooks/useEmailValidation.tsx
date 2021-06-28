@@ -1,9 +1,14 @@
 import { useEffect, useState } from 'react'
 
+interface EmailValidationProps {
+  userEmail: string
+  requiredEmailLength?: number
+}
+
 export const useEmailValidation = ({
   userEmail = '',
   requiredEmailLength = 64
-}) => {
+}: EmailValidationProps) => {
   const [validEmail, setValidEmail] = useState<boolean>(false)
   const [validEmailLength, setValidEmailLength] = useState<boolean>(false)
 
